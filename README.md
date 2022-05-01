@@ -1,6 +1,7 @@
 # Etch-a-Sketch
 
 This is a simple drawing web app built with HTML, CSS, and vanilla JavaScript! 
+
 Check it out @ https://schau1121.github.io/Etch-a-Sketch/
 
 Things I learned:
