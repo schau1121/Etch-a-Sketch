@@ -10,13 +10,17 @@
 </head>
 <body>
     <div class="header">
-        <h1>Etch A Sketch</h1>
+        <h1>Etch a Sketch</h1>
     </div>
 
     <div class="content">
         <div class="toolbar">
+            <input type="color" id="color-input">
+            <button id="color" class="active">Color mode</button>
+            <button id="rainbow">Rainbow mode</button>
+            <button id="clear-canvas">Clear</button>
             <span id="canvas-size">Size of canvas: 16x16</span>
-            <input type="range" min="8" max="64" value="16" class="slider"
+            <input type="range" min="1" max="64" value="16" class="slider"
             id="canvas-size-slider">
         </div>
         <div class="canvas"> 
