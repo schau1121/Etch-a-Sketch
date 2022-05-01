@@ -1,13 +1,16 @@
-/*
-* {
-    border: 1px red solid;
-}
-*/
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'VT323', monospace;
+    font-size: 60px;
 }
 
 .content {
@@ -25,7 +28,7 @@ body {
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr);
     border: 1px solid #ddd;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .grid-item {
@@ -98,4 +101,32 @@ button.active {
 
 #color-input:hover {
     transform: scale(1.1);
+}
+
+/* FOOTER */
+img {
+    width: 30px;
+    margin: 12px;
+}
+
+.footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    color: black;
+    font-size: 20px;
+    justify-self: flex-end;
+    margin-top: 65px;
+}
+
+.fa-github {
+    color: var(--primary-light);
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.fa-github:hover {
+    transform: rotate(360deg) scale(1.2);
 }
