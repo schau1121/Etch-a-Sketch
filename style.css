@@ -24,10 +24,13 @@ body {
     grid-gap: 0;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr);
+    border: 1px solid #ddd;
 }
 
 .grid-item {
-    border: 1px solid #ddd;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
 }
 
 /* TOOLBAR */
